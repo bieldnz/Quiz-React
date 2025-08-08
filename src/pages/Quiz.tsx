@@ -48,13 +48,6 @@ const Quiz = () => {
         }
     };
 
-    const restartQuiz = () => {
-        setCurrentQuestion(0);
-        setScore(0);
-        setShowResult(false);
-        setShowPrize(false);
-    };
-
     const claimPrize = () => {
         setShowPrize(true);
         setShowResult(false);
